@@ -1,0 +1,33 @@
+{
+    "name": "ElegantOTAPro",
+    "version": "3.1.5",
+    "authors": [
+        {
+            "name": "Ayush Sharma"
+        },
+        {
+            "name": "Otto Kyosti"
+        }
+    ],
+    "dependencies": [
+        {
+            "owner": "mathieucarbou",
+            "name": "ESPAsyncWebServer",
+            "version": "^3.1.1",
+            "platforms": [
+                "espressif8266",
+                "espressif32"
+            ]
+        }
+    ],
+    "platforms": [
+        "espressif32"
+    ],
+    "frameworks": "arduino",
+    "build": {
+        "flags": [
+            "-L.",
+            "-lElegantOTAPro"
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "middleware",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Otto Kyosti"
+        }
+    ],
+    "dependencies": [],
+    "platforms": [
+        "espressif32"
+    ],
+    "frameworks": "arduino",
+    "build": {
+        "flags": [
+            "-L.",
+            "-lmiddleware"
+        ]
+    }
+}
